@@ -35,7 +35,6 @@ img {
 main {
     padding-top: 150px;
     padding-bottom: 150px;
-    border: 1px dashed black;
 }
 
 h3 {
@@ -194,7 +193,7 @@ h3 {
     align-items: baseline;
     min-height: 800px;
 }
-.plane-card{
+.plane-card, .contact-for-quote{
     border: 1px solid grey;
 }
 
@@ -248,3 +247,25 @@ main i{
     margin-right: 10px;
 }
 
+.contact-for-quote-sx{
+    flex-basis: 70%;
+    padding: 20px;
+}
+
+.contact-for-quote-dx{
+    flex-basis: 30%;
+    padding: 20px;
+}
+
+.dropbox-partner{
+    height: 500px;
+}
+.dropbox-partner-sx {
+    flex-basis: 60%;
+    border: 1px dashed red;
+}
+
+.dropbox-partner-dx {
+    flex-basis: 40%;
+    border: 1px dashed red;
+}
