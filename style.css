@@ -66,6 +66,7 @@ img {
     padding: 5px 10px;
     background-color: #0061ff;
     color: white;
+    cursor: pointer;
 }
 
 .btn-full.lg {
@@ -76,6 +77,7 @@ img {
     padding: 5px 10px;
     color: black;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 /* Header */
