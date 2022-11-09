@@ -14,9 +14,113 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 800;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* Utils */
 
-.container {
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.g20{
+    gap: 20px;
+}
+
+.small-container {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+.large-container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* Bottoni */
+
+.btn-full {
+    padding: 5px 10px;
+    background-color: #0061ff;
+    color: white;
+}
+
+.btn-full.lg {
+    padding: 5px 30px;
+}
+
+.btn-empty {
+    padding: 5px 10px;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Header */
+
+.navbar{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.jumbo {
+    padding-top: 100px;
+    background-color: #b4d0e7;
+    height: 600px;
+}
+
+.content-jumbo {
+    margin-top: 40px;
+}
+
+.jumbo-sx {
+    width: 40%;
+    align-items: flex-start;
+}
+
+.jumbo-sx i{
+    padding-top: 30px;
+    font-size: 42px;
+}
+
+.jumbo-dx {
+    width: 60%;
+}
+
+.jumbo-dx img{
+    max-width: 110%;
+}
+
+
+
+
