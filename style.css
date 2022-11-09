@@ -18,7 +18,7 @@ ul {
     list-style-type: none;
 }
 
-a {
+header a {
     text-decoration: none;
     color: black;
 }
@@ -30,6 +30,16 @@ h1 {
 
 img {
     max-width: 100%;
+}
+
+main {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border: 1px dashed black;
+}
+
+h3 {
+    font-size: 36px;
 }
 
 /* Utils */
@@ -46,12 +56,41 @@ img {
     flex-direction: column;
 }
 
-.g20{
+.g20 {
     gap: 20px;
 }
 
+.g30 {
+    gap: 30px;
+}
+
+.f10 {
+    font-size: 10px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+
 .small-container {
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -123,6 +162,81 @@ img {
     max-width: 110%;
 }
 
+/* Main */
 
+.billing-selection {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid #0061ff;
+    margin-right: 5px;
+}
 
+.billing-not-selection {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid grey;
+    margin-right: 5px;
+}
+
+.all-plane > div {
+    flex-basis: calc(100% / 3);
+    height: 800px;
+}
+.plane-card{
+    border: 1px solid grey;
+}
+
+.plane-card-header {
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.plane-name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.plane-card-main{
+    padding: 10px 20px;
+}
+
+.btn-plane{
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.row{
+    border-bottom: 1px solid black;
+    width: 5%;
+}
+
+.salient-point{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.fa-check {
+    color: blue;
+}
+
+.plane-card li{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+main i{
+    margin-right: 10px;
+}
 
