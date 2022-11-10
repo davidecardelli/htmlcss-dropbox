@@ -24,7 +24,7 @@ a {
     color: black;
 }
 
-#tdy{
+.tdy{
     color: blue;
     text-decoration: underline;
 }
@@ -354,7 +354,7 @@ main i{
 }
 
 .square img{
-    scale: 60%;
+    scale: 0.6;
     filter: invert(100%);
 }
 
