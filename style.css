@@ -309,7 +309,7 @@ main i{
 
 .col{
     flex-basis: calc(100% / 3);
-    /* height: 450px; */
+    height: 450px;
 }
 
 .square{
