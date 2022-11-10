@@ -76,6 +76,10 @@ footer{
     flex-direction: column;
 }
 
+.jc-sb {
+    justify-content: space-between;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -394,7 +398,20 @@ main i{
 
 /* FAQ */
 
+.FAQ p{
+    font-size: 18px;
+    font-weight: bold;
+}
 
+.tab-faq div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+#top-tab {
+    border-top: 1px solid black;
+}
 
 
 
