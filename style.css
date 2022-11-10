@@ -41,6 +41,17 @@ h3 {
     font-size: 36px;
 }
 
+h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+
 /* Utils */
 
 .small-container {
@@ -198,23 +209,21 @@ h3 {
     margin-right: 5px;
 }
 
-.all-plane > div {
+.all-plans > div {
     flex-basis: calc(100% / 3);
-    align-items: baseline;
-    min-height: 800px;
 }
-.plane-card, .contact-for-quote{
+.plans-card, .contact-for-quote{
     border: 1px solid grey;
 }
 
-.plane-card-header {
+.plans-card-header {
     font-size: 12px;
     text-align: center;
     padding: 3px 0px;
     border-bottom: 1px solid grey;
 }
 
-.plane-name {
+.plans-name {
     font-size: 22px;
     font-weight: 700;
 }
@@ -223,11 +232,11 @@ h3 {
     font-weight: 700;
 }
 
-.plane-card-main{
+.plans-card-main{
     padding: 10px 20px;
 }
 
-.btn-plane{
+.btn-plans{
     display: block;
     margin: 0 auto;
     font-size: 14px;
@@ -239,7 +248,7 @@ h3 {
     width: 5%;
 }
 
-.salient-point{
+.salients-point{
     font-size: 16px;
     font-weight: 700;
 }
@@ -248,7 +257,7 @@ h3 {
     color: blue;
 }
 
-.plane-card li{
+.plans-card li{
     margin: 20px 0;
     font-size: 16px;
 }
@@ -359,7 +368,7 @@ main i{
 .dropbox-buisness-sx {
     flex-basis: 60%;
     height: 225px;
-    padding: 40px;
+    padding-right: 120px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -367,7 +376,6 @@ main i{
 .dropbox-buisness-dx {
     flex-basis: 40%;
     height: 225px;
-    padding: 20px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -382,4 +390,31 @@ main i{
 
 .col-bottom {
     padding: 20px;
+}
+
+/* FAQ */
+
+
+
+
+
+/* FOOTER */
+
+.col-footer{
+    flex-basis: 20%;
+    margin-bottom: 30px;
+}
+
+footer li{
+    line-height: 2rem;
+    font-size: 14px;
+}
+
+.line-footer{
+    width: 60%;
+    border-bottom: 1px solid white;
+}
+
+footer i {
+    margin-right: 3px;
 }
