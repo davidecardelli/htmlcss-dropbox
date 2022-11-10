@@ -35,7 +35,6 @@ img {
 
 main {
     padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 h3 {
@@ -64,6 +63,10 @@ h3 {
 
 .column {
     flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .g20 {
@@ -106,6 +109,11 @@ h3 {
 .mb40 {
     margin-bottom: 40px;
 }
+
+.mb80 {
+    margin-bottom: 80px;
+}
+
 /* Bottoni */
 
 .btn-full {
@@ -272,5 +280,106 @@ main i{
     flex-flow: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 20px;
+}
+
+/* BRAND */
+
+.col{
+    flex-basis: calc(100% / 3);
+    /* height: 450px; */
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.square.bg-designit {
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+.square.bg-asu {
+    background-color: #61082b;
+}
+
+.square.bg-uof {
+    background-color: #0093ce;
+}
+
+.square.bg-topps {
+    background-color: #ff1c1c;
+}
+
+.square.bg-wbr {
+    background-color: #d5001f;
+}
+
+.square.bg-lhc {
+    background-color: #b4d0e7;
+}
+
+.square.bg-lp {
+    background-color: #0d2481;
+}
+
+.square.bg-cc {
+    background-color: #ffd830;
+}
+
+.square img{
+    scale: 60%;
+    filter: invert(100%);
+}
+
+.central-rectangle{
+    background-color: #f5f5f5;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.central-rectangle img{
+    width: 40%;
+}
+
+.prova-gratis{
+    background-color: #b4d0e7;
+    width: 100%;
+    min-height: 225px;
+}
+
+.dropbox-buisness-sx {
+    flex-basis: 60%;
+    height: 225px;
+    padding: 40px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropbox-buisness-dx {
+    flex-basis: 40%;
+    height: 225px;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropbox-buisness-sx h3 {
+    color: #61082b;
+}
+
+.col-top {
+    padding: 20px;
+}
+
+.col-bottom {
     padding: 20px;
 }
