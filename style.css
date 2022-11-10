@@ -24,6 +24,11 @@ a {
     color: black;
 }
 
+#tdy{
+    color: blue;
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 62px;
     font-weight: 800;
