@@ -309,7 +309,11 @@ main i{
 
 .col{
     flex-basis: calc(100% / 3);
-    /* height: 450px; */
+}
+
+.col-tab{
+    flex-basis: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .square{
@@ -354,7 +358,8 @@ main i{
 }
 
 .square img{
-    scale: 0.6;
+    padding: 30px;
+    width: 100%;    
     filter: invert(100%);
 }
 
